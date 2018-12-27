@@ -1,0 +1,29 @@
+{
+  "name": "config-webpack-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "webpack": "^4.26.1",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.1.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.prod.js -p",
+    "dev": "webpack-dev-server",
+    "start": "webpack-dev-server --inline --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adaane/config-webpack-boilerplate.git"
+  },
+  "author": "Adaane AHAMADA <adaane.ahamada@adotmob.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adaane/config-webpack-boilerplate/issues"
+  },
+  "homepage": "https://github.com/Adaane/config-webpack-boilerplate#readme"
+}
