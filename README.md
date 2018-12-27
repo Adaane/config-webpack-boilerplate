@@ -8,4 +8,5 @@
 `webpack.dev.js` — set­tings for local devel­op­ment builds
 `webpack.prod.js` — set­tings for pro­duc­tion builds
 
-Is not necessary to to edit the `webpack.settings.js` file
+
+The key concept is that the only file we need to edit from project to project is the webpack.settings.js
